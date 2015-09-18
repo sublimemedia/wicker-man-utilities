@@ -1,0 +1,35 @@
+{
+  "name": "wicker-man-utilities",
+  "version": "0.1.0",
+  "description": "A set of utilities used by the Wicker Man components",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && broccoli build ./dist",
+    "test": "./node_modules/.bin/mocha -R spec --recursive",
+    "test-coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sublimemedia/wicker-man-utilities.git"
+  },
+  "keywords": [
+    "utilities"
+  ],
+  "author": "Sublime Media",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sublimemedia/wicker-man-utilities/issues"
+  },
+  "homepage": "https://github.com/sublimemedia/wicker-man-utilities#readme",
+  "devDependencies": {
+    "broccoli": "^0.16.8",
+    "broccoli-babel-transpiler": "^5.4.5",
+    "chai": "^3.2.0",
+    "istanbul": "^0.3.20",
+    "mocha": "^2.3.2"
+  },
+  "private": true,
+  "dependencies": {
+    "bluebird": "^2.10.0"
+  }
+}
