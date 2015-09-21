@@ -2,7 +2,7 @@
   "name": "wicker-man-utilities",
   "version": "0.1.0",
   "description": "A set of utilities used by the Wicker Man components",
-  "main": "index.js",
+  "main": "./dist/wmutilities.js",
   "scripts": {
     "build": "rm -rf ./dist && broccoli build ./dist",
     "test": "./node_modules/.bin/mocha -R spec --recursive",
