@@ -189,7 +189,7 @@ function extend(arg) {
         .forEach(key => {
           const val = curV[key];
 
-          prevV[key] = deep && typeof val === 'object' ? extend(true, {}, prevV[key], val) : val;
+          prevV[key] = deep && typeof val === 'object' ? extend(true, (prevV[key] instanceof Array ? [] : {}), prevV[key], val) : val;
         });
       }
 
