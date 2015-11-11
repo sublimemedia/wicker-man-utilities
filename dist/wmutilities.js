@@ -224,7 +224,7 @@
               Object.keys(curV).forEach(function (key) {
                 var val = curV[key];
 
-                prevV[key] = deep && typeof val === 'object' ? extend(true, {}, val) : val;
+                prevV[key] = deep && typeof val === 'object' ? extend(true, {}, prevV[key], val) : val;
               });
             }
 
