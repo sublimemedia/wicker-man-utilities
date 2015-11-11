@@ -1,6 +1,6 @@
 {
   "name": "@sublimemedia/wicker-man-utilities",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A set of utilities used by the Wicker Man components",
   "main": "./dist/wmutilities.js",
   "scripts": {
