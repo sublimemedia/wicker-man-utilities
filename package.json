@@ -1,6 +1,6 @@
 {
   "name": "@sublimemedia/wicker-man-utilities",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A set of utilities used by the Wicker Man components",
   "main": "./dist/wmutilities.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "utilities"
   ],
   "author": "Sublime Media",
-  "license": "UNLICENSED",
+  "license": "SEE LICENSE IN license.md",
   "bugs": {
     "url": "https://github.com/sublimemedia/wicker-man-utilities/issues"
   },
